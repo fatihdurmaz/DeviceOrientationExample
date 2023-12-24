@@ -1,9 +1,10 @@
-# SwiftUI İle Cihaz Yönü Algılama
 
-Bu SwiftUI projesi, hem iPhone hem de iPad'de cihaz yönünü algılamayı göstermektedir.
+# Device Orientation Detection with SwiftUI
 
-## Önizleme
-![Demo](DeviceOrientationExample/demo.gif | width=480)
+This SwiftUI project demonstrates how to detect the device orientation on both iPhone and iPad.
+
+## Preview
+![Demo](DeviceOrientationExample/demo.gif)
 
 
 
