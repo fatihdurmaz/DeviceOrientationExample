@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DE0BFDB32B38CFD70093E6B9 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = DE0BFDB22B38CFD70093E6B9 /* Lottie */; };
+		DE11A3AE2B38EE53009AABAD /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = DE11A3AD2B38EE53009AABAD /* demo.gif */; };
 		DE243BEA2B37BCBE0041095A /* orientation.json in Resources */ = {isa = PBXBuildFile; fileRef = DE243BE92B37BCBE0041095A /* orientation.json */; };
 		DEADC8FB2B37A88400000DC3 /* DeviceOrientationExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEADC8FA2B37A88400000DC3 /* DeviceOrientationExampleApp.swift */; };
 		DEADC8FD2B37A88400000DC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEADC8FC2B37A88400000DC3 /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE11A3AD2B38EE53009AABAD /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 		DE243BE92B37BCBE0041095A /* orientation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = orientation.json; sourceTree = "<group>"; };
 		DEADC8F72B37A88400000DC3 /* DeviceOrientationExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeviceOrientationExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEADC8FA2B37A88400000DC3 /* DeviceOrientationExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceOrientationExampleApp.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				DE243BE92B37BCBE0041095A /* orientation.json */,
 				DEADC8FA2B37A88400000DC3 /* DeviceOrientationExampleApp.swift */,
 				DEADC8FC2B37A88400000DC3 /* ContentView.swift */,
+				DE11A3AD2B38EE53009AABAD /* demo.gif */,
 				DEADC8FE2B37A88400000DC3 /* Assets.xcassets */,
 				DEADC9002B37A88400000DC3 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEADC9022B37A88400000DC3 /* Preview Assets.xcassets in Resources */,
+				DE11A3AE2B38EE53009AABAD /* demo.gif in Resources */,
 				DE243BEA2B37BCBE0041095A /* orientation.json in Resources */,
 				DEADC8FF2B37A88400000DC3 /* Assets.xcassets in Resources */,
 			);
