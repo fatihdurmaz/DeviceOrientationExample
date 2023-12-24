@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE0BFDB32B38CFD70093E6B9 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = DE0BFDB22B38CFD70093E6B9 /* Lottie */; };
+		DE243BEA2B37BCBE0041095A /* orientation.json in Resources */ = {isa = PBXBuildFile; fileRef = DE243BE92B37BCBE0041095A /* orientation.json */; };
 		DEADC8FB2B37A88400000DC3 /* DeviceOrientationExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEADC8FA2B37A88400000DC3 /* DeviceOrientationExampleApp.swift */; };
 		DEADC8FD2B37A88400000DC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEADC8FC2B37A88400000DC3 /* ContentView.swift */; };
 		DEADC8FF2B37A88400000DC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEADC8FE2B37A88400000DC3 /* Assets.xcassets */; };
@@ -14,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE243BE92B37BCBE0041095A /* orientation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = orientation.json; sourceTree = "<group>"; };
 		DEADC8F72B37A88400000DC3 /* DeviceOrientationExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeviceOrientationExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEADC8FA2B37A88400000DC3 /* DeviceOrientationExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceOrientationExampleApp.swift; sourceTree = "<group>"; };
 		DEADC8FC2B37A88400000DC3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE0BFDB32B38CFD70093E6B9 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +55,7 @@
 		DEADC8F92B37A88400000DC3 /* DeviceOrientationExample */ = {
 			isa = PBXGroup;
 			children = (
+				DE243BE92B37BCBE0041095A /* orientation.json */,
 				DEADC8FA2B37A88400000DC3 /* DeviceOrientationExampleApp.swift */,
 				DEADC8FC2B37A88400000DC3 /* ContentView.swift */,
 				DEADC8FE2B37A88400000DC3 /* Assets.xcassets */,
@@ -83,6 +88,9 @@
 			dependencies = (
 			);
 			name = DeviceOrientationExample;
+			packageProductDependencies = (
+				DE0BFDB22B38CFD70093E6B9 /* Lottie */,
+			);
 			productName = DeviceOrientationExample;
 			productReference = DEADC8F72B37A88400000DC3 /* DeviceOrientationExample.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +119,9 @@
 				Base,
 			);
 			mainGroup = DEADC8EE2B37A88400000DC3;
+			packageReferences = (
+				DE0BFDB12B38CFD70093E6B9 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+			);
 			productRefGroup = DEADC8F82B37A88400000DC3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEADC9022B37A88400000DC3 /* Preview Assets.xcassets in Resources */,
+				DE243BEA2B37BCBE0041095A /* orientation.json in Resources */,
 				DEADC8FF2B37A88400000DC3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +356,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DE0BFDB12B38CFD70093E6B9 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.3.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DE0BFDB22B38CFD70093E6B9 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE0BFDB12B38CFD70093E6B9 /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DEADC8EF2B37A88400000DC3 /* Project object */;
 }
